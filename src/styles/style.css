@@ -27,22 +27,24 @@ body {
   justify-content: space-between;
   font-weight: 800;
   font-size: 30px;
-  margin-top: 160px;
-  margin-bottom: 5rem;
+  margin-top: 100px;
+  margin-bottom: 4rem;
 }
 
 .no-account {
-  margin-bottom: 24px;
+  margin-bottom: 4rem;
 }
 
-.entrada {
-  flex-direction: column;
+#mail {
+  width: 300px;
+  height: 30px;
+  margin-top: 12px;
 }
 
-.entrada .entrada-content {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 20px;
+#senha {
+  width: 300px;
+  height: 30px;
+  margin-top: 12px;
 }
 
 .entrada .entrada-content .espaco {
@@ -50,7 +52,7 @@ body {
 }
 
 #space-button {
-  margin-bottom: 24px;
+  margin-bottom: 3rem;
 }
 
 .input-button {
@@ -63,4 +65,9 @@ body {
 
   font-size: larger;
   font-weight: 700;
+
+  margin-bottom: 30px;
+}
+
+.entrada .entrada-content .forgot-password {
 }
