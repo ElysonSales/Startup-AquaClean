@@ -1,0 +1,66 @@
+body {
+  background-image: url("img1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: #ffffff;
+
+  color: #000;
+}
+
+.login {
+  width: 30rem;
+  height: 44.4rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #ffffff;
+
+  padding: 16px;
+}
+
+.login .login-convite {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 160px;
+  margin-bottom: 5rem;
+}
+
+.no-account {
+  margin-bottom: 24px;
+}
+
+.entrada {
+  flex-direction: column;
+}
+
+.entrada .entrada-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.entrada .entrada-content .espaco {
+  margin: 48px 0 48px 0;
+}
+
+#space-button {
+  margin-bottom: 24px;
+}
+
+.input-button {
+  width: 200px;
+  height: 36px;
+  color: #000;
+  background-color: #8bffff;
+  border: 6px;
+  border-radius: 16px;
+
+  font-size: larger;
+  font-weight: 700;
+}

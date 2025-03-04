@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startup</title>
+
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/vars.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+    />
+
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="login">
+      <div class="login-convite">
+        <h2>Faça seu login</h2>
+      </div>
+      <div class="no-account">
+        <a href="#">Não tem uma conta?</a>
+      </div>
+
+      <section class="entrada">
+        <div class="entrada-content">
+          <form action="script.js" method="post">
+            <label for="mail">Digite seu e-mail</label>
+            <p></p>
+            <input type="email" id="mail" name="mail" placeholder="Email" />
+            <p class="espaco"></p>
+            <label for="senha">Digite sua senha</label>
+            <p></p>
+            <input
+              type="password"
+              id="senha"
+              name="senha"
+              placeholder="Senha"
+            />
+            <p id="space-button"></p>
+            <input
+              type="submit"
+              type="button"
+              value="Enviar"
+              class="input-button"
+            />
+            <p></p>
+            <span class="forgot-password">
+              <a href="#">Esqueceu sua senha?</a>
+            </span>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
