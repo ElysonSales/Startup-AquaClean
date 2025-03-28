@@ -1,14 +1,3 @@
-body {
-  background-image: url("img1.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-color: #ffffff;
-
-  color: #000;
-}
-
 .login {
   width: 30rem;
   height: 44.4rem;
@@ -37,14 +26,20 @@ body {
 
 #mail {
   width: 300px;
-  height: 30px;
+  height: 36px;
   margin-top: 12px;
+  border-radius: 12px;
+  border-width: 3px;
+  border-color: #a9cfe5;
 }
 
 #senha {
   width: 300px;
-  height: 30px;
+  height: 36px;
   margin-top: 12px;
+  border-radius: 12px;
+  border-width: 3px;
+  border-color: #a9cfe5;
 }
 
 .entrada .entrada-content .espaco {
@@ -56,8 +51,8 @@ body {
 }
 
 .input-button {
-  width: 200px;
-  height: 36px;
+  width: 306px;
+  height: 40px;
   color: #000;
   background-color: #8bffff;
   border: 6px;
@@ -69,5 +64,10 @@ body {
   margin-bottom: 30px;
 }
 
-.entrada .entrada-content .forgot-password {
+.login .no-account a {
+  color: #000;
+}
+
+.login .entrada .entrada-content .forgot-password a {
+  color: #000;
 }
