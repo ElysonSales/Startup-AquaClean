@@ -37,6 +37,10 @@
   flex-direction: column;
   align-items: center;
 }
+.login .entrada .entrada-content .form-content .fa {
+  font-size: 22px;
+  font-weight: 300;
+}
 
 #mail {
   width: 26rem;
