@@ -1,5 +1,12 @@
 :root {
   /* FONT */
   --font-dm-sans: "DM sans", sans-serif;
+  --font-times: "Times New Roman", serif;
+  --font-georgia: "Georgia", serif;
   /* COLORS */
+  --cor-preta: #000;
+  --cor-branca: #F7F7F7;
+  --azul-marinho: #12577B;
+  --azul-escuro: #021B33;
+  --branco-cinza: #A9CFE5;
 }
