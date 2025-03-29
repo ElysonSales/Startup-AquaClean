@@ -16,6 +16,12 @@
   border-radius: 16px;
 
   padding: 16px;
+  padding-top: 0px;
+}
+.login .logo-img {
+  width: 180px;
+  height: 180px;
+  
 }
 
 .login .login-convite {
@@ -24,12 +30,12 @@
   justify-content: space-between;
   font-weight: 800;
   font-size: 30px;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-top: 2re;
+  margin-bottom: 2rem;
 }
 
 .no-account {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .login .entrada .entrada-content .form-content {
   display: flex;
@@ -48,7 +54,7 @@
   margin-top: 12px;
   border-radius: 12px;
   border-width: 3px;
-  border-color: #021B33;
+  border-color: #021b33;
 }
 
 #senha {
@@ -57,7 +63,7 @@
   margin-top: 12px;
   border-radius: 12px;
   border-width: 3px;
-  border-color: #021B33;
+  border-color: #021b33;
 }
 
 .entrada .entrada-content .espaco {
@@ -88,5 +94,4 @@
 
 .login .entrada .entrada-content .forgot-password a {
   color: #000;
-
 }
