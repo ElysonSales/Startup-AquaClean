@@ -1,0 +1,97 @@
+.login {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+
+  width: 40rem;
+  height: 40rem;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #ffffff;
+  border-radius: 16px;
+
+  padding: 16px;
+  padding-top: 0px;
+}
+.login .logo-img {
+  width: 180px;
+  height: 180px;
+  
+}
+
+.login .login-convite {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 2re;
+  margin-bottom: 2rem;
+}
+
+.no-account {
+  margin-bottom: 2rem;
+}
+.login .entrada .entrada-content .form-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.login .entrada .entrada-content .form-content .fa {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+#mail {
+  width: 26rem;
+  height: 36px;
+  margin-top: 12px;
+  border-radius: 12px;
+  border-width: 3px;
+  border-color: #021b33;
+}
+
+#senha {
+  width: 26rem;
+  height: 36px;
+  margin-top: 12px;
+  border-radius: 12px;
+  border-width: 3px;
+  border-color: #021b33;
+}
+
+.entrada .entrada-content .espaco {
+  margin: 24px 0 24px 0;
+}
+
+#space-button {
+  margin-bottom: 3rem;
+}
+
+.input-button {
+  width: 306px;
+  height: 40px;
+  color: #000;
+  background-color: #8bffff;
+  border: 6px;
+  border-radius: 16px;
+
+  font-size: larger;
+  font-weight: 700;
+
+  margin-bottom: 30px;
+}
+
+.login .no-account a {
+  color: #000;
+}
+
+.login .entrada .entrada-content .forgot-password a {
+  color: #000;
+}
