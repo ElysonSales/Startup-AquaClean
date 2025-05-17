@@ -3,38 +3,3 @@ body {
   color: var(--cor-preta);
   font-family: var(--font-georgia);
 }
-.top-page .logo img {
-  width: 180px;
-  height: 180px;
-}
-
-.top-page {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 6px;
-  background-color: var(--azul-escuro);
-  border-radius: 18px;
-}
-
-.top-page .navegation {
-  display: contents;
-}
-
-.top-page .navegation a {
-    text-decoration: none;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: var(--cor-preta);
-    background-color: var(--cor-branca);
-
-    border-radius: 16px;
-    width: 180px;
-    height: 60px;
-
-    font-size: 18px;
-    font-weight: 500;
-}
