@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AquaClean</title>
 
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/vars.css" />
-    <link rel="stylesheet" href="./src/styles/cadastro.css" />
+    <link rel="stylesheet" href="./src/styles/login.css" />
 
     <link
       rel="stylesheet"
@@ -19,28 +19,27 @@
     />
 
     <script src="script.js"></script>
-  </head>
-  <body>
-
+</head>
+<body>
     <!-- Logo e mensagem de convite do topo. -->
 
     <div class="login">
       <img src="./src/assets/Logo AquaClean.png" class="logo-img">
       <div class="login-convite">
-        <h2>Cadastre-se</h2>
+        <h2>Redefinição da senha</h2>
       </div>
       <div class="no-account">
-        <a href="login.html">Já tenho uma conta</a>
+        <a href="login.html">Lembrei da senha</a>
       </div>
-
-      <!-- Seção de cadastro -->
+      
+      <!-- Seção de entrada -->
 
       <section class="entrada">
         <div class="entrada-content">
           <form action="script.js" method="post" class="form-content">
             <p></p>
-            <i class="fa fa-user"></i>
-            <input type="email" id="mail" name="mail" placeholder="Email"/>
+            <i class="fa fa-key"></i>
+            <input type="email" id="mail" name="mail" placeholder="Digite sua nova senha"/>
             <p class="espaco"></p>
             
             <p></p>
@@ -49,14 +48,14 @@
               type="password"
               id="senha"
               name="senha"
-              placeholder="Senha"
+              placeholder="Confirme sua senha"
             />
             <p id="space-button"></p>
-            <input type="submit" value="Entrar" class="input-button" a href="main.html"/>
+            <input type="submit" value="Confirmar" class="input-button" />
             <p></p>
           </form>
         </div>
       </section>
     </div>
-  </body>
+</body>
 </html>
