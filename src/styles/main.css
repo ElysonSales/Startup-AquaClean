@@ -3,3 +3,74 @@ body {
   color: var(--cor-preta);
   font-family: var(--font-georgia);
 }
+
+.top-page {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-dm-sans);
+}
+
+.top-page a {
+  text-decoration: none;
+  color: var(--azul-escuro);
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.top-page .logo {
+  margin-right: 6rem;
+}
+
+.top-page .navegation .navegation-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-page .navegation .navegation-content .empresa {
+  margin-left: 10rem;
+}
+
+.top-page .navegation .navegation-content .produtos {
+  margin-left: 15rem;
+}
+
+.top-page .navegation .navegation-content .contato {
+  margin-left: 15rem;
+}
+
+.top-page .navegation .navegation-content .login {
+  margin-left: 15rem;
+}
+
+.main .quem-somos .imagem {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.main .quem-somos .imagem img {
+  display: block;
+  width: 100%;
+}
+
+.main .quem-somos .imagem .title  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--cor-branca);         /* ou qualquer cor visível */
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px black;
+}
+
+.main .quem-somos .imagem .title a {
+text-decoration: none;
+color: var(--cor-branca);
+text-align: center;
+font-family: var(--font-dm-sans);
+}
+
