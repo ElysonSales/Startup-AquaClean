@@ -23,7 +23,7 @@ body {
   flex-direction: column;
   align-items: center;
 
-  background-color: #ffffff;
+  background-color: var(--cor-branca);
   border-radius: 16px;
 
   padding: 16px;

@@ -14,9 +14,9 @@ body {
 
 .top-page a {
   text-decoration: none;
-  color: var(--azul-escuro);
+  color: var(--azul-marinho);
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 28px;
 }
 
 .top-page .logo {
@@ -74,3 +74,168 @@ text-align: center;
 font-family: var(--font-dm-sans);
 }
 
+.main .quem-somos .title1 {
+  color: var(--azul-marinho);
+  font-size: 36px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  margin-bottom: 52px;
+}
+
+.main .quem-somos .container-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50%;
+  left: 25%;
+  width: 50%;
+  height: auto;
+}
+
+#text {
+  font-size: 20px;
+  justify-content: center;
+  justify-items: auto;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.info-gerais {
+  display: flex;
+  margin-top: 48px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 12px;
+  height: 42rem;
+}
+
+.info-gerais .textos {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.info-gerais .img {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+}
+
+.info-gerais .title {
+  color: var(--azul-marinho);
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 10%;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+.info-gerais .subtitle-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.info-gerais .subtitle {
+  color: var(--azul-escuro);
+  font-size: 38px;
+  font-weight: 500;
+  margin-left: 10%;
+}
+
+#df {
+  font-weight: 900;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: var(--branco-cinza);
+}
+
+.info-gerais .textos .button-container {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 4rem;
+}
+
+.info-gerais .textos .button-container .button a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--azul-marinho);
+}
+
+.info-gerais .textos .button-container .button {
+  background-color: transparent;
+  border: 2px solid var(--azul-escuro);
+  border-radius: 4px;
+}
+
+.info-gerais .textos .button-container .button:houver{
+  color: var(--branco-cinza);
+}
+
+.main .compromisso {
+  background-image: url(comp.png);
+  width: 100%;
+  height: 32rem;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.main .compromisso .fundo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 20%;
+  left: 25%;
+  right: 50%;
+  bottom: 60%;
+  background-color: var(--cor-branca);
+  width: 50%;
+}
+
+.main .compromisso .fundo .title {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+  margin-bottom: 36px;
+  font-size: 32px;
+  color: var(--azul-marinho);
+}
+
+.main .compromisso .fundo .subtitle {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-right: 72px;
+  margin-left: 72px;
+  font-size: 20px;
+}
+
+.main .compromisso .fundo .subtitle2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 42px;
+}
+
+.main .compromisso .fundo .button-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.main .compromisso .fundo .button-container .button {
+  background-color: var(--cor-branca);
+  border: 2px solid var(--cor-preta);
+  border-radius: 4px;
+}
+
+.main .compromisso .fundo .button-container .button a {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: var(--cor-branca);
+  color: var(--azul-marinho);
+}
