@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/vars.css" />
-    <link rel="stylesheet" href="./src/styles/cadastro.css" />
+    <link rel="stylesheet" href="cadastro.css" />
 
     <link
       rel="stylesheet"
@@ -18,14 +18,19 @@
       href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
     />
 
-    <script src="script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+
+    <script src="script.js" defer></script>
+
   </head>
   <body>
 
     <!-- Logo e mensagem de convite do topo. -->
 
     <div class="login">
-      <img src="./src/assets/Logo AquaClean.png" class="logo-img">
+      <img src="./src/styles/Logo-AquaClean.png" class="logo-img">
       <div class="login-convite">
         <h2>Cadastre-se</h2>
       </div>
@@ -52,7 +57,7 @@
               placeholder="Senha"
             />
             <p id="space-button"></p>
-            <input type="submit" value="Entrar" class="input-button" a href="main.html"/>
+            <input type="submit" value="Cadastrar" class="input-button" a href="main.html"/>
             <p></p>
           </form>
         </div>

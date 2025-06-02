@@ -1,48 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AquaClean</title>
+<html lang="pt-br">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>AquaClean</title>
 
-    <link rel="stylesheet" href="./src/styles/reset.css" />
-    <link rel="stylesheet" href="./src/styles/vars.css" />
-    <link rel="stylesheet" href="./src/styles/contato.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
-    />
+   <link rel="stylesheet" href="./src/styles/reset.css" />
+   <link rel="stylesheet" href="./src/styles/vars.css" />
+   <link rel="stylesheet" href="./src/styles/produtos.css" />
 
-    <script src="script.js"></script>
-</head>
-<body>
-     <!-- Barra de navegação superior -->
-    <div class="top-page">
-      <div class="logo">
-        <img src="./src/assets/Logo AquaClean.png" alt="Logo" />
-      </div>
 
-      <!-- Guia de páginas -->
+   <link
+     rel="stylesheet"
+     href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+   />
+   <link
+     rel="stylesheet"
+     href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+   />
 
-      <div class="navegation">
-        <div class="empresa">
-          <a href="main.html">Empresa</a>
-        </div>
-        <div class="produtos">
-          <a href="produtos.html">Produtos</a>
-        </div>
-        <div class="contato">
-          <a href="contato.html">Contato</a>
-        </div>
-        <div class="login">
-          <a href="login.html">Login</a>
-        </div>
-      </div>
-    </div>
-</body>
-</html>
+
+ </head>
+ <body>
+   <!-- Barra de navegação superior -->
+   <div class="top-page">
+     <div class="logo">
+       <img src="./src/assets/teste1.png" alt="Logo" />
+     </div>
+  
+
+
+     <!-- Guia de páginas -->
+
+
+     <div class="navegation">
+       <div class="navegation-content">
+         <div class="empresa">
+           <a href="main.html">Empresa</a>
+         </div>
+         <div class="produtos">
+           <a href="produtos.html">Produtos</a>
+         </div>
+         <div class="eventos">
+           <a href="eventos.html">Eventos</a>
+         </div>
+         <div class="login">
+           <a href="login.html">Login</a>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="main">
+     <div class="intro-container">
+       <div class="texts">
+         <h2 class="title1">OS MELHORES PRODUTOS</h2>
+         <h2 class="title2">DO MERCADO</h2>
+         <button class="prod">
+           <a href="#produtos-container">Veja Mais</a>
+         </button>
+       </div>
+       <div class="imagem-container">
+         <img src="./src/assets/produtos-site.jpeg" alt="produtos">
+       </div>
+     </div>
+     <div class="servicos-container">
+       <div class="texts">
+         <h2 class="title">NOSSOS SERVIÇOS</h2>
+         <p class="texto">
+           Oferecemos soluções personalizadas em tratamento de água industrial.
+           Cada cliente possui necessidades únicas, e nós desenvolvemos sistemas de água de
+           elevada pureza que consideram desde o volume necessário até as condições climáticas.
+           Nossa expertise em purificação de água nos permite criar soluções inovadoras e
+           duradouras, garantindo a qualidade que nossos clientes exigem com um preço acessível.
+         </p>
+       </div>
+     </div>
+     <div id="produtos-container">
+       <h2 class="title-prod">PRODUTOS</h2>
+       <div class="caseiro">
+         <div class="texts1">
+           <h2 class="title1">Filtro Caseiro</h2>
+           <h2 class="subtitle1">O filtro com o maior custo-benefício do mercado!</h2>
+           <p class="text1">Pra você que busca confiança e praticidade com um preço barato!</p>
+           <button class="pedido1">
+             <a href="#">
+               Comprar
+             </a>
+           </button>
+         </div>
+         <div class="imagem1">
+           <img src="./src/assets/filtro-caseiro.jpeg" alt="">
+         </div>
+       </div>
+       <div class="comfort">
+         <div class="texts1">
+           <h2 class="title1">Filtro Comfort</h2>
+           <h2 class="subtitle1">Trazendo o conforto que você deseja!</h2>
+           <p class="text1">Com válvula automática para facilitar sua vida!</p>
+           <button class="pedido1">
+             <a href="#">
+               Comprar
+             </a>
+           </button>
+         </div>
+         <div class="imagem1">
+           <img src="./src/assets/filtro-comfort.jpeg" alt="#">
+         </div>
+       </div>
+       <div class="pro">
+         <div class="texts1">
+           <h2 class="title1">Filtro Pro</h2>
+           <h2 class="subtitle1">Capacitado para suprir suas altas demandas!</h2>
+           <p class="text1">Construido para trazer a garantia de uma água pura!</p>
+           <button class="pedido1">
+             <a href="#">
+               Comprar
+             </a>
+           </button>
+         </div>
+         <div class="imagem1">
+           <img src="./src/assets/filtro-pro.jpeg" alt="#">
+         </div>
+       </div>
+     </div>
+   </div>
